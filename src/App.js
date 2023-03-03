@@ -17,6 +17,7 @@ const App = () => {
       return updatedGoals;
     });
   };
+  console.log(addGoalHandler)
 
   const deleteItemHandler = goalId => {
     setCourseGoals(prevGoals => {

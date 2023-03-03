@@ -1,5 +1,5 @@
 .form-control {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0rem;
 }
 
 .form-control label {
@@ -21,4 +21,11 @@
   outline: none;
   background: #fad0ec;
   border-color: #8b005d;
+}
+.form-control.invalid input {
+  background: #fb0505;
+  border-color: #ebc7df;
+}
+.form-control.invalid label {
+  color: #fb0505;
 }
